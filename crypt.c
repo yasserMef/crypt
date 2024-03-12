@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define Mestaoui 47
+
 void cryptageParDecalage(char *chaine, int decalage) {
     for (int i = 0; chaine[i] != '\0'; ++i) {
         
